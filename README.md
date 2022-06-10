@@ -2,10 +2,8 @@
 
 Mission: develop and iterate a standardized metric to measure health [formerly GHM]
 
-Why? Because we need a reliable metric to measure heath
+Why? Because a reliable metric to measure heath provides 1) a tool to incentivize health and 2) A measuring stick for professional effectivess
 
-A measuring stick for effectiveness and a tool that can be used to incentivize health and a scorecard for professionals. 
+How? Compile and refine a list of questions which offer an accurate reflection of ones state of health
 
-How? By surveying 
-
-What? A
+What? Simple questionaire containing subjective questions & objective measures combined with disease insurance spending history
