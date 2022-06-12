@@ -1,6 +1,6 @@
 # Healthscore
 
-Mission: develop and iterate a standardized metric to measure health [formerly GHM]
+Mission: develop, iterate and validate a standardized & universal metric [formerly GHM]
 
 --> Why?
 Because a reliable metric to measure heath provides 1) a tool to incentivize individual health and 2) A measuring stick for professional effectivess
