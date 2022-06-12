@@ -1,2 +1,18 @@
-Rank each one using 1,2,3 scale
+Database of potential questions:
+
+
+x1: Do you currently suffer from any chronic diseases?
+
+a) yes, 1 chronic disease             [0]
+b) yes, multiple chronic diseases     [-5]
+c) no, none                           [10]
+
+
+x2: How many days a week (on average) do you use recreational drugs? (alcohol, cigarettes, cannabis)
+
+a) 7        [0]
+b) 3-5      [3]
+c) 1-2      [8]
+d) 0        [10]
+
 
