@@ -1,7 +1,10 @@
 Constraints: 20 questions, 10 minutes or less
-Max score:
+Max score:100
 Minimum score:
 Normalize to score out of 100 (divide by 2?)
+
+Weighted questions: more important elements carry a higher point score (-5,0,3,10 / 0,2,3,5)
+
 
 Scoring questions:
 Feedback questions: used to guide further action to help the person (resources, connect with a group/guide)
@@ -21,9 +24,9 @@ d) Excellent health     [10]
 #2: How would you rate your overall diet?
 
 a) Unhealthy            [0]
-b) Moderate             [3]
-c) Healthy              [7]
-d) Very healthy         [10]
+b) Moderate             [2]
+c) Healthy              [3]
+d) Very healthy         [5]
 
 -----
 
