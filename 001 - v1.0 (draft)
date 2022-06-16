@@ -1,11 +1,12 @@
 Constraints: 20 questions, 10 minutes or less
-Max score: 100
-Minimum score:
-Normalize to score out of 100 (divide by 2?)
+Max score: 100*
+Minimum score: -25
+
+*if scoring over 100, normalize to score out of 100
 
 Distribution of scoring questions by pillar:
 
-2 questions per pillar
+2 questions per pillar (1 question for money)
 5 general questions
 
 Movement: time in a chair, exercise (everyday, 3-5, 1-2, never)
@@ -15,8 +16,8 @@ Community: people to call
 Mind: anxiety, meditation
 Money: thoughts on money
 
-17 scoring questions
-3 feedback questions
+16 scoring questions
+4 feedback questions
 
 Weighted questions: Scoring based on perceived importance of question (-5,0,3,10 / 0,2,3,5)
 
@@ -38,13 +39,12 @@ d) Excellent health     [10]
 
 -----
 
-#2f: What area of your health do you struggle the most with?  [use pillars instead?]
+#2f: What area of your health do you struggle the most with?
 
 a) Movement
 b) Mental health
 c) Sleep
 d) Food
-e) Community
 
 -----
 
@@ -94,10 +94,10 @@ c) 3 or more            [-10]
 
 #8f: What is the biggest obstacle stopping you from being healthier?
 
-a) lack of time
-b) lack of knowledge
-c) lack of money
-d) lack of motivation
+a) Lack of time
+b) Lack of knowledge
+c) Lack of money
+d) Lack of motivation
 
 -----
 
@@ -112,8 +112,7 @@ d) less than 2              [10]
 
 #10s: On average, how do you feel when you wake up in the morning?
 
-a) Low energy, tired                              [0]
-b) Avergage energy, wish I had more               [2]  
+a) Tired, low energy                              [0]
 c) Rested and energized                           [5]
 
 -----
@@ -145,14 +144,14 @@ c) I love it                [10]
 #14s: How frequently do you meditate?
 
 a) never                     [0]
-b) sometimes (1-2x/wk)       [7]
+b) sometimes (1-2x/wk)       [5]
 c) daily                     [10]
 
 -----
 
 #15s: How motivated are you to improve your health?
 
-a) not motivated             [0]
+a) not motivated             [-5]
 b) slightly motivated        [3]
 c) extremely motivated       [10]
 
