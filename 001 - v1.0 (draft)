@@ -3,16 +3,18 @@ Max score:100
 Minimum score:
 Normalize to score out of 100 (divide by 2?)
 
-Weighted questions: more important elements carry a higher point score (-5,0,3,10 / 0,2,3,5)
+Weighted questions: Scoring based on perceived importance of question (-5,0,3,10 / 0,2,3,5)
 
+Question categoies: scoring questions (s), feedback questions (f)
 
-Scoring questions:
-Feedback questions: used to guide further action to help the person (resources, connect with a group/guide)
-
-Answers allow for community data collection, highlight areas of opportunity (for individuals and community)
+Why feedback questions?:
+- Gather community data
+- Highlight areas of opportunity (individual & community)
+- Guide provision of education resources (resources, workshops, connect with a guide)
+- Enables creation of bespoke learning plans
 -------
 
-#1: How would you rate your current state of health?
+#1s: How would you rate your current state of health?
 
 a) Poor health          [0]
 b) Average health       [3]
@@ -21,7 +23,25 @@ d) Excellent health     [10]
 
 -----
 
-#2: How would you rate your overall diet?
+#2f: What area of your health do you struggle the most with?  [use pillars instead?]
+
+a) Movement
+b) Mental health
+c) Sleep
+d) Food
+e) Community
+
+-----
+
+#3s: If you had a significant adverse health event, how many people could you call for help?
+
+a) 0                       [-5]
+b) 1-3                     [7]
+c) 5 or more               [10]
+
+-----
+
+#4s: How would you rate your overall diet?
 
 a) Unhealthy            [0]
 b) Moderate             [2]
@@ -30,7 +50,7 @@ d) Very healthy         [5]
 
 -----
 
-[feedback] What pillar of health are you most interested in learning about?
+#5f: What pillar of health are you most interested in learning about?
 
 a) Movement
 b) Mental health
@@ -41,25 +61,15 @@ f) Money
 
 -----
 
-[feedback] What area of your health do you struggle the most with?  [use pillars instead?]
+#6s: How confident are you in your ability to improve your health?
 
-a) Movement
-b) Mental health
-c) Sleep
-d) Food
-e) Community
+a) Not confident at all     [0] 
+b) Moderately confident     [2]
+c) Extremely confident      [5]
 
 -----
 
-#3: How confident are you in your ability to improve your health?
-
-a) Not confident at all 
-b) Moderately confident
-c) Extremely confident
-
------
-
-#4: How many different medications do you take each week?
+#7s: How many different medications do you take each week?
 
 a) zero                 [10]
 b) 1-2                  [0]
@@ -67,15 +77,7 @@ c) 3 or more            [-10]
 
 -----
 
-#5: If you had a significant adverse health event, how many people could you call for help?
-
-a) 0                       [-5]
-b) 1-3                     [7]
-c) 5 or more               [10]
-
------
-
-[feedback] What is the biggest obstacle stopping you from being healthier?
+#8f: What is the biggest obstacle stopping you from being healthier?
 
 a) lack of time
 b) lack of knowledge
@@ -84,7 +86,7 @@ d) lack of motivation
 
 -----
 
-#6: How many hours per day to you spend sitting in a chair?
+#9s: How many hours per day to you spend sitting in a chair?
 
 a) More than 8              [0]
 b) 6                        [3]
@@ -93,15 +95,15 @@ d) less than 2              [10]
 
 -----
 
-#7: On average, how do you feel when you wake up in the morning?
+#10s: On average, how do you feel when you wake up in the morning?
 
-a) Tired and lethargic      [0]
-b) Low energy               [3]  
-c) Rested and energized     [10]
+a) Low energy, tired                              [0]
+b) Avergage energy, wish I had more               [2]  
+c) Rested and energized                           [5]
 
 -----
 
-#8: In the past month, have you taken any medications for pain?
+#11s: In the past month, have you taken any medications for pain?
 
 a) yes, daily               [-5]
 b) yes, infrequently        [0]
@@ -109,7 +111,7 @@ c) no, none                 [10]
 
 -----
 
-#9: In the past month have you experienced any physical pain?
+#12s: In the past month have you experienced any physical pain?
 
 a) yes, in multiple areas   [-5]
 b) yes, in a single area    [0]
@@ -117,14 +119,7 @@ c) no, zero pain            [10]
 
 -----
 
-#10: In the past month have you experience any of these?
-
-a) anxiety
-b) 
-
------
-
-#11: How do you feel about your current job?
+#13s: How do you feel about your current job?
 
 a) I hate it                [-5]
 b) It's okay                [3]
@@ -132,15 +127,15 @@ c) I love it                [10]
 
 -----
 
-#12: How frequently do you meditate?
+#14s: How frequently do you meditate?
 
 a) never                     [0]
-b) sometimes (1-2x/wk)       [3]
+b) sometimes (1-2x/wk)       [7]
 c) daily                     [10]
 
 -----
 
-#13: How motivated are you to improve your health?
+#15s: How motivated are you to improve your health?
 
 a) not motivated             [0]
 b) slightly motivated        [3]
@@ -148,14 +143,13 @@ c) extremely motivated       [10]
 
 -----
 
-#14: What is your daily energy level?
+#16s: How frequently do you feel worried, stressed or anxious?
 
-a) Low energy, tired                    [0]
-b) Average energy, wish I had more      [3]  
-c) High energy                          [10]
+a) All the time             [0]
+b) Rarely                   [3]
+c) Never                    [5]
 
+-----
 
-
-
-
+#17s: 
 
