@@ -1,14 +1,20 @@
 # Healthscore
 
-Mission: develop, iterate and validate a standardized & universal metric [formerly GHM]
+Mission: develop, iterate and validate a standardized & universal health metric [formerly GHM]
 
 --> Why?
-Because a reliable metric to measure heath provides 1) a tool to incentivize individual health and 2) A measuring stick for professional effectivess
+Because to incentivize health we must measure health
+
+A reliable metric to measure heath provides:
+
+1) A tool to incentivize individual health
+2) A measuring stick for professional effectivess (enables alignment of compensation with effectiveness)
 
 --> How? 
-Compile and refine a list of questions which together calculate an accurate reflection of ones current state of health
+Compile and refine a list of scoring questions to calculate an accurate reflection of ones current state of health
 
 --> What? 
-20 questions max (30sec/question) containing subjective questions & objective measures 
+20 questions answered in 10 minutes or less
 
-(combined with 5yr disease care spending history - multiplier assigned based on one's location on a normalized curve for respective community)
+
+Crowdhealth application: Healthscore can be combined with 5yr disease care spending history to adjust monthly premiums and incentivize health
