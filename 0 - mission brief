@@ -1,20 +1,22 @@
-Mission: develop a general health metric that:
+Mission: develop a general health metric that
 
 1) Serves as a valid and relaible measure of general health
-2) Indentifies individual learning opportunities
+2) Indentifies individual and collective education opportunities
 
-
-Dual purpose: Assess current state of health (large subjective component), assess learning opportunities
-
-To incentivize health we must be able to reliably measure health
 
 Combination of subjective & objective questions
 
-A feedback mechanism to measure one's health progress
+Questions distributed across 6 pillars of health, weighted scoring
 
-A tool for professionals to review results of efforts being made to improve health
+Individual utility: a feedback mechanism to measure one's health progress
 
-25% of questions serve as indicators of health education opportunities
+Professional utility: a feedback tool that measures the effectiveness of interventions
+
+Non scoring questions serve as indicators of health education opportunities
 
 
-Parallel - credit score. Based on credit history (health history), current credit worthiness (health state). Used to determine premiums
+Parallel - credit score
+
+Based on credit history (disease care spending history) & current credit worthiness (health state)
+
+Used to calculate risk (credit: interest rates, crowdhealth: monthly premiums)
