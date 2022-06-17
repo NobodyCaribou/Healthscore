@@ -1,6 +1,6 @@
 Constraints: 20 questions, 10 minutes or less
-Max score: 100
-Minimum score: -25
+Max score: 125
+Minimum score: -35
 
 Distribution of scoring questions by pillar:
 
@@ -15,13 +15,6 @@ General: 5
 Feedback questions (non scoring): 4
 
 Total: 20
-
-Movement: time in a chair, exercise (everyday, 3-5, 1-2, never)
-Sleep: energy in am, thoughts on sleep, quantity of sleep
-Food: perception of diet
-Community: people to call
-Mind: anxiety, meditation
-Money: thoughts on money
 
 16 scoring questions
 4 feedback questions
@@ -124,11 +117,12 @@ c) Rested and energized                           [5]
 
 -----
 
-#11s[general]: In the past month, have you taken any medications for pain?
+#11f: What is your preferred way of learning?
 
-a) yes, daily               [-5]
-b) yes, infrequently        [0]
-c) no, none                 [10]
+a) Watching a video
+b) Reading a book
+c) Attending a group workshop
+d) Listening to a podcast
 
 -----
 
