@@ -1,5 +1,5 @@
 Constraints: 20 questions, 10 minutes or less
-Max score: 125
+Max score: 120
 Minimum score: -35
 
 Distribution of scoring questions by pillar:
@@ -175,12 +175,11 @@ d) more that 5 hours        [10]
 
 -----
 
-#18s[sleep]: What statement best describes you thoughts about sleep?
+#18s[sleep]: On average, how many hours of sleep do you get per night
 
-a) I'm worried I don't get enough               [0]
-b) I have trouble falling asleep                [0]
-c) I sleep less than 6 hours each night         [0]
-d) I get excellent sleep every night            [10]
+a) less than 5                 [0]
+b) 5-7                         [3]
+c) 8 or more                   [5]
 
 -----
 
