@@ -1,5 +1,7 @@
 # Healthscore
 
+[A project by TFC]
+
 Mission: develop, iterate and validate a standardized & universal health metric [formerly GHM]
 
 --> Why?
