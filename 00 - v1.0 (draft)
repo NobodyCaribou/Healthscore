@@ -1,13 +1,20 @@
 Constraints: 20 questions, 10 minutes or less
-Max score: 100*
+Max score: 100
 Minimum score: -25
-
-*if scoring over 100, normalize to score out of 100
 
 Distribution of scoring questions by pillar:
 
-2 questions per pillar (1 question for money)
-5 general questions
+Sleep: 2
+Food: 2
+Movement: 2
+Mind: 2
+Community: 2
+Money: 1
+General: 5
+
+Feedback questions (non scoring): 4
+
+Total: 20
 
 Movement: time in a chair, exercise (everyday, 3-5, 1-2, never)
 Sleep: energy in am, thoughts on sleep, quantity of sleep
@@ -21,7 +28,7 @@ Money: thoughts on money
 
 Weighted questions: Scoring based on perceived importance of question (-5,0,3,10 / 0,2,3,5)
 
-Question categoies: scoring questions (s), feedback questions (f)
+Question categories: scoring questions (s), feedback questions (f)
 
 Why feedback questions?:
 - Gather community data
@@ -30,7 +37,7 @@ Why feedback questions?:
 - Enables creation of bespoke learning plans
 -------
 
-#1s: How would you rate your current state of health?
+#1s[general]: How would you rate your current state of health?
 
 a) Poor health          [0]
 b) Average health       [3]
@@ -48,7 +55,7 @@ d) Food
 
 -----
 
-#3s: If you had a significant adverse health event, how many people could you call for help?
+#3s[community]: If you had a significant adverse health event, how many people could you call for help?
 
 a) 0                       [-5]
 b) 1-3                     [7]
@@ -56,7 +63,7 @@ c) 5 or more               [10]
 
 -----
 
-#4s: How would you rate your overall diet?
+#4s[food]: How would you rate your overall diet?
 
 a) Unhealthy            [0]
 b) Moderate             [2]
@@ -76,7 +83,7 @@ f) Money
 
 -----
 
-#6s: How confident are you in your ability to improve your health?
+#6s[general]: How confident are you in your ability to improve your health?
 
 a) Not confident at all     [0] 
 b) Moderately confident     [2]
@@ -84,7 +91,7 @@ c) Extremely confident      [5]
 
 -----
 
-#7s: How many different medications do you take each week?
+#7s[general]: How many different medications do you take each week?
 
 a) zero                 [10]
 b) 1-2                  [0]
@@ -101,7 +108,7 @@ d) Lack of motivation
 
 -----
 
-#9s: How many hours per day to you spend sitting in a chair?
+#9s[movement]: How many hours per day to you spend sitting in a chair?
 
 a) More than 8              [0]
 b) 6                        [3]
@@ -110,14 +117,14 @@ d) less than 2              [10]
 
 -----
 
-#10s: On average, how do you feel when you wake up in the morning?
+#10s[sleep]: On average, how do you feel when you wake up in the morning?
 
 a) Tired, low energy                              [0]
 c) Rested and energized                           [5]
 
 -----
 
-#11s: In the past month, have you taken any medications for pain?
+#11s[general]: In the past month, have you taken any medications for pain?
 
 a) yes, daily               [-5]
 b) yes, infrequently        [0]
@@ -125,7 +132,7 @@ c) no, none                 [10]
 
 -----
 
-#12s: In the past month have you experienced any physical pain?
+#12s[movement]: In the past month have you experienced any physical pain?
 
 a) yes, in multiple areas   [-5]
 b) yes, in a single area    [0]
@@ -133,7 +140,7 @@ c) no, zero pain            [10]
 
 -----
 
-#13s: How do you feel about your current job?
+#13s[general]: How do you feel about your current job?
 
 a) I hate it                [-5]
 b) It's okay                [3]
@@ -141,7 +148,7 @@ c) I love it                [10]
 
 -----
 
-#14s: How frequently do you meditate?
+#14s[mind]: How frequently do you meditate?
 
 a) never                     [0]
 b) sometimes (1-2x/wk)       [5]
@@ -149,7 +156,7 @@ c) daily                     [10]
 
 -----
 
-#15s: How motivated are you to improve your health?
+#15s[general]: How motivated are you to improve your health?
 
 a) not motivated             [-5]
 b) slightly motivated        [3]
@@ -157,7 +164,7 @@ c) extremely motivated       [10]
 
 -----
 
-#16s: How frequently do you feel worried, stressed or anxious?
+#16s[mind]: How frequently do you feel worried, stressed or anxious?
 
 a) All the time             [0]
 b) Rarely                   [3]
@@ -165,7 +172,7 @@ c) Never                    [5]
 
 -----
 
-#17s: How much time per week do you spend in nature (on average)?
+#17s[community]: How much time per week do you spend in nature (on average)?
 
 a) none                     [-5]
 b) 1-2 hours                [3]
@@ -174,7 +181,7 @@ d) more that 5 hours        [10]
 
 -----
 
-(needs work) #18s: What statement best describes you thoughts about sleep?
+#18s[sleep]: What statement best describes you thoughts about sleep?
 
 a) I'm worried I don't get enough               [0]
 b) I have trouble falling asleep                [0]
@@ -183,12 +190,19 @@ d) I get excellent sleep every night            [10]
 
 -----
 
-(needs work) #19s: What best describes your thoughts about money?
+#19s[money]: What best describes your thoughts about money?
 
-a) I worry about not having enough            [0]
-b) I 
-c) I
+a) I worry about not having enough            [1]
+b) I don't think about it much                [3]
+c) It's a major source of stress for me       [0]
+d) I have enough of it                        [5]
 
+-----
 
-Question re: quantity of sleep?
+#20 [food]: On average, how many meals do you make from scratch per week?
+
+a) none                             [0]
+b) 1-2                              [5]
+c) 3-5                              [8]
+d) I make every meal from scratch   [10]
 
